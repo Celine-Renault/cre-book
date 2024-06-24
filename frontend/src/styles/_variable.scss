@@ -1,0 +1,93 @@
+$black_color: #000000;
+$white_color: #000000;
+
+$primary_color: #2ac1eb;
+
+// Font
+@font-face {
+	font-family: "BBBPoppins-Display";
+	font-weight: 800;
+	font-style: bold;
+	src: url("../fonts/bbb-poppins/webfonts/BBBPoppinsTN-DisplayBlack.woff2")
+		format(woff2);
+}
+@font-face {
+	font-family: "BBBPoppins-Display";
+	font-weight: 800;
+	font-style: italic;
+	src: url("../fonts/bbb-poppins/webfonts/BBBPoppinsTN-DisplayBlackItalic.woff2")
+		format(woff2);
+}
+
+@font-face {
+	font-family: "BBBPoppins-Display";
+	font-weight: 700;
+	font-style: bold;
+	src: url("../fonts/bbb-poppins/webfonts/BBBPoppinsTN-DisplayBold.woff2")
+		format(woff2);
+}
+
+@font-face {
+	font-family: "BBBPoppins-Display";
+	font-weight: 700;
+	font-style: italic;
+	src: url("../fonts/bbb-poppins/webfonts/BBBPoppinsTN-DisplayBoldItalic.woff2")
+		format(woff2);
+}
+@font-face {
+	font-family: "BBBPoppins-Display";
+	font-weight: 400;
+	font-style: normal;
+	src: url("../fonts/bbb-poppins/webfonts/BBBPoppinsTN-DisplayRegular.woff2")
+		format(woff2);
+}
+@font-face {
+	font-family: "BBBPoppins-Display";
+	font-weight: 400;
+	font-style: italic;
+	src: url("../fonts/bbb-poppins/webfonts/BBBPoppinsTN-DisplayRegularItalic.woff2")
+		format(woff2);
+}
+
+// LS-VG5000
+@font-face {
+	font-family: "LS-VG5000";
+	font-weight: 400;
+	font-style: normal;
+	src: url("../fonts/LS_VG5000/LS-VG5000-Regular.woff2") format(woff2);
+}
+
+@font-face {
+	font-family: "LS-VG5000";
+	font-weight: 400;
+	font-style: italic;
+	src: url("../fonts/LS_VG5000/LS-VG5000-RegularShifted.woff2") format(woff2);
+}
+
+@font-face {
+	font-family: "LS-VG5000";
+	font-weight: 300;
+	font-style: normal;
+	src: url("../fonts/LS_VG5000/LS-VG5000-Light.woff2") format(woff2);
+}
+
+@font-face {
+	font-family: "LS-VG5000";
+	font-weight: 300;
+	font-style: normal;
+	src: url("../fonts/LS_VG5000/LS-VG5000-LightShifted.woff2") format(woff2);
+}
+
+@font-face {
+	font-family: "LS-VG5000";
+	font-weight: 700;
+	font-style: bold;
+	src: url("../fonts/LS_VG5000/LS-VG5000-Bold.woff2") format(woff2);
+}
+
+@font-face {
+	font-family: "LS-VG5000";
+	font-weight: 700;
+	font-style: italic;
+	src: url("../fonts/LS_VG5000/LS-VG5000-BoldShifted.woff2") format(woff2);
+}
