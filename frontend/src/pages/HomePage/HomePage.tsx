@@ -34,7 +34,7 @@ function HomePage() {
 			</div>
 
 			<div className={styles.workshop}>
-				<h3>Ateliers à venir</h3>
+				<h3>Ateliers passés</h3>
 				<div className={styles.infoWorkshop}>
 					<p className={styles.titleWorkshop}>Cherchez la petite bête... </p>
 					<p>
