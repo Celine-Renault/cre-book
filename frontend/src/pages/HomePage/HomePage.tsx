@@ -1,5 +1,6 @@
 import styles from "./HomePage.module.scss";
 import logo from "./../../assets/logo-siteWeb-cre.png";
+import React from 'react';
 
 function HomePage() {
 	return (
