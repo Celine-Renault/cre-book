@@ -1,10 +1,12 @@
 import "./App.scss";
-import HomePage from "./pages/HomePage/HomePage";
+// import HomePage from "./pages/HomePage/HomePage";
+import HomePageUnderConstruction from "./pages/HomePageUnderConstruction/HomePageUnderConstruction";
 
 function App() {
 	return (
 		<div className="App">
-			<HomePage></HomePage>
+			<HomePageUnderConstruction/>
+			{/* <HomePage></HomePage> */}
 		</div>
 	);
 }

@@ -1,0 +1,21 @@
+@use "../../styles/mixin.scss" as m;
+@import "../../styles/variable.scss";
+
+.customJob {
+	@include m.title("BBBPoppins-Display", 400, normal, 2.25em, unset); // 36px
+    padding-top: 1em;
+    max-height: 1.5em;
+}
+.designJob {
+    color: #eb542a;
+    font-weight: 600;
+}
+
+.devJob {
+    color: #eb2ac1;
+    font-weight: 600;
+}
+.workshopJob {
+    color: #2aebb4;
+    font-weight: 600;
+}

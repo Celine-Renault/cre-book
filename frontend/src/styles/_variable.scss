@@ -4,6 +4,8 @@ $white_color: #000000;
 $primary_color: #2ac1eb;
 
 // Font
+
+// BBBPoppins-Display
 @font-face {
 	font-family: "BBBPoppins-Display";
 	font-weight: 800;
@@ -46,6 +48,53 @@ $primary_color: #2ac1eb;
 	font-weight: 400;
 	font-style: italic;
 	src: url("../fonts/bbb-poppins/webfonts/BBBPoppinsTN-DisplayRegularItalic.woff2")
+		format(woff2);
+}
+
+// BBBPoppins
+
+@font-face {
+	font-family: "BBBPoppins";
+	font-weight: 800;
+	font-style: bold;
+	src: url("../fonts/bbb-poppins/webfonts/BBBPoppinsTN-TextBlack.woff2")
+		format(woff2);
+}
+@font-face {
+	font-family: "BBBPoppins";
+	font-weight: 800;
+	font-style: italic;
+	src: url("../fonts/bbb-poppins/webfonts/BBBPoppinsTN-TextBlackItalic.woff2")
+		format(woff2);
+}
+
+@font-face {
+	font-family: "BBBPoppins";
+	font-weight: 700;
+	font-style: bold;
+	src: url("../fonts/bbb-poppins/webfonts/BBBPoppinsTN-TextBold.woff2")
+		format(woff2);
+}
+
+@font-face {
+	font-family: "BBBPoppins";
+	font-weight: 700;
+	font-style: italic;
+	src: url("../fonts/bbb-poppins/webfonts/BBBPoppinsTN-TextBoldItalic.woff2")
+		format(woff2);
+}
+@font-face {
+	font-family: "BBBPoppins";
+	font-weight: 400;
+	font-style: normal;
+	src: url("../fonts/bbb-poppins/webfonts/BBBPoppinsTN-TextRegular.woff2")
+		format(woff2);
+}
+@font-face {
+	font-family: "BBBPoppins";
+	font-weight: 400;
+	font-style: italic;
+	src: url("../fonts/bbb-poppins/webfonts/BBBPoppinsTN-TextRegularItalic.woff2")
 		format(woff2);
 }
 

@@ -1,0 +1,27 @@
+@use "../../styles/mixin.scss" as m;
+@import "../../styles/variable.scss";
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoNameContaine {
+  display: flex;
+  justify-content: space-between;
+  width: 22em;
+  .logo {
+    width: 100%;
+    flex: 1;
+    img {
+      max-width: 5em;
+      height: auto;
+      contain: content;
+      min-width: 1em;
+    }
+  }
+
+  p {
+    @include m.title("BBBPoppins-Display", 700, normal, 2em, unset);
+  }
+}

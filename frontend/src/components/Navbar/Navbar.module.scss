@@ -1,0 +1,15 @@
+@use "../../styles/mixin.scss" as m;
+@import "../../styles/variable.scss";
+
+.navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    // border-top: 2.5px solid $black_color;
+    // border-bottom: 2.5px solid $black_color;
+}
+p {
+    @include m.title("BBBPoppins", 400, normal, 1.7em, unset);
+
+}
