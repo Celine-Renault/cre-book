@@ -5,8 +5,10 @@ const sentencesJobs = [
     { startSentence: "Je suis", job: "designer graphique", stylesJob: styles.designJob },
     { startSentence: "Je suis", job: "développeuse web", stylesJob: styles.devJob },
     {
-        startSentence: "Je conçois des",
-        job: "ateliers participatifs, pédagogiques et ludiques",
+        // startSentence: "Je conçois des",
+        startSentence: "Je suis",
+        // job: "ateliers participatifs, pédagogiques et ludiques",
+        job: "médiatrice culturelle",
         stylesJob: styles.workshopJob
     },
 ];

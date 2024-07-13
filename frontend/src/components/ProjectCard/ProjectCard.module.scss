@@ -1,0 +1,7 @@
+@use "../../styles/mixin.scss" as m;
+@import "../../styles/variable.scss";
+
+.cardContainer {
+    border-top: 2.5px solid $black_color;
+    border-bottom: 2.5px solid $black_color;
+}

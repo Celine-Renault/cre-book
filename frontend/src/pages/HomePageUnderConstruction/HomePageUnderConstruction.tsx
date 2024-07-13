@@ -1,5 +1,5 @@
 import styles from "./HomePageUnderConstruction.module.scss";
-import logo from "./../../assets/logo-siteWeb-cre.png";
+import logo from "./../../assets/logo-siteWeb-cre-en-construction.png";
 
 function HomePageUnderConstruction() {
 	return (

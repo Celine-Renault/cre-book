@@ -1,6 +1,5 @@
 import styles from "./HomePage.module.scss";
-import AnimatedText from "../../components/AnimatedText/AnimatedText";
-import Button from "../../components/Button/Button";
+// import Button from "../../components/Button/Button";
 import Header from "../../components/Header/Header";
 import Navbar from "../../components/Navbar/Navbar";
 
@@ -9,9 +8,8 @@ function HomePage() {
     <>
       <div className={styles.mainSection}>
         <Header></Header>
-        <AnimatedText />
         <Navbar></Navbar>
-        <Button text="Ateliers passés"></Button>
+        {/* <Button text="Ateliers passés"></Button> */}
 
         <div className={styles.mendatoryIndication}>
           <p>
